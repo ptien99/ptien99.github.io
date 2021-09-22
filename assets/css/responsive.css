@@ -1,7 +1,8 @@
 /* tablet và moblie */
-@media (max-width: 1023px) {
+@media (max-width: 63.9375em) {
     .place-buy-btn {
         padding: 15px 16px;
+        font-size: 16px;
     }
 
     #nav .subnav a {
@@ -10,10 +11,15 @@
 
     .contact-form .form-control {
         padding: 15px;
+        font-size: 16px;
     }
 
     .contact-info {
         line-height: 2;
+    }
+
+    .contact-submit-btn {
+        font-size: 18px;
     }
 
     .social {
@@ -31,7 +37,7 @@
 }
 
 /* moblie */
-@media (max-width: 740px) {
+@media (max-width: 46.1875em) {
     .s-full-width,
     .s-col-full {
         width: 100% !important;
