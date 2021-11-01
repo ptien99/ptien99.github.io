@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phương Tiên</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- nhớ viết sau vì viết sau ưu tiên hơn -->
+    <link rel="stylesheet" href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <!-- begin: nav -->
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+            <!-- end: nav -->
+
+        </div>
+
+        <div id="slider">
+           
+        </div>
+
+        <div id="content">
+            <!-- about section -->
+            <div id="single" class="content-section">
+                <h2 class="section-heading">ABOUT ME</h2>
+                <p class="section-sub-heading">Introduce</p>
+                <p class="about-text">I am an enthusiastic youngster who aim to find a challengimg entry level position about Graphic Design and Web Development. Especially, I want to look for a company where i can discover more about this area, with the employees who can motivate and drive me to improve my skills, and I can do my best to assist the company and achieve all company’s target.
+                </p>
+                <div class="row contact-list">
+                        <div class="col col-half s-col-full contact-info">
+                            <p><i class="ti-user"></i>Name: Nguyễn Thị Phương Tiên</p>
+                            
+                            <p><i class="ti-user"></i>Date of birth: 22/03/1999</p>
+                            <p><i class="ti-location-pin"></i>Address: 346/15 Ngũ Hành Sơn, Đà Nẵng</p>
+                            <p><i class="ti-mobile"></i>Phone: <a href="tel:0394371024">0394371024</a></p>
+                            <p><i class="ti-email"></i>Email: <a href="mailto:phuongtien134@gmail.com">phuongtien134@gmail.com</a></p>
+                        </div>
+                </div>
+            </div>
+            
+            <!-- tour section -->
+            <div id="tour" class="tour-section">
+                <div class="content-section">
+                    <h2 class="section-heading text-white">RESUME</h2>
+                    <p class="section-sub-heading1 text-white">EDUCATION</p>
+                    <!-- tickets -->
+                    <ul class="tickets-list">
+                        <li>English Studies <span class="edu">Da Nang University of Forgein Language (2017-2021)</span></li>  
+                    </ul>
+
+                    <p class="section-sub-heading2 text-white">MY SKILLS</p>
+                    <ul class="tickets-list">
+                        <li>Photoshop <span class="skill">25%</span></li>
+                        <li>Illustrator <span class="skill">50%</span></li>
+                        <li>HTML/CSS <span class="skill">50%</span></li>
+                        <li>English <span class="skill">75%</span></li>
+                    </ul>
+
+                    <!-- places -->
+                    
+                </div>
+            </div>
+
+            <!-- begin contact section -->
+            <div id="contact" class="content-section">
+                <h2 class="section-heading">CONTACT</h2>
+                <p class="section-sub-heading">Get In Touch</p>
+
+                <div class="row contact-content">
+                    <div class="col col-half s-col-full contact-info">
+                        <p><i class="ti-location-pin"></i>Da Nang</p>
+                        <p><i class="ti-mobile"></i>Phone: <a href="tel:0394371024">0394371024</a></p>
+                        <p><i class="ti-email"></i>Email: <a href="mailto:phuongtien134@gmail.com">phuongtien134@gmail.com</a></p>
+                        
+                    </div>
+                    <div class="col col-half s-col-full contact-form">
+                        <form action="">
+                            <div class="row">
+                                <div class="col col-half s-col-full">
+                                    <input type="text" name="" placeholder="Name" required id="" class="form-control">
+                                </div>
+                                <div class="col col-half s-col-full s-mt-8">
+                                    <input type="email" name="" placeholder="Email" required id="" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row mt-8">
+                                <div class="col col-full">
+                                    <input type="text" name="" placeholder="Message" required id="" class="form-control">
+                                </div>
+                            </div>
+                            <input class="contact-submit-btn form-summit-btn mt-16 s-full-width" type="submit" value="SEND">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- end contact section -->
+
+            
+        </div>
+
+        <div id="footer">
+            <div class="social">
+                
+                <a href="https://www.facebook.com/"><i class ="ti-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class ="ti-instagram"></i></a>
+                
+            </div>
+           
+        </div>
+    </div>
+
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="ti-close"></i>
+            </div>
+
+            <header class="modal-header">
+                <i class="modal-heading-icon ti-bag"></i>
+                Tickets
+            </header>
+
+            <div class="modal-body">
+                <label for="ticket-quantity" class="modal-label"> 
+                    <!-- for chỉ dùng cho id -->
+                    <i class="ti-shopping-cart"></i>
+                    Tickets, $15 per person
+                </label>
+                <input id="ticket-quantity" type="text" class="modal-input" placeholder="How many?">
+                <!-- đặt id="ticket-quantity cho input gắn vào for label" -->
+                <label for="ticket-email" class="modal-label">
+                    <i class="ti-user"></i>
+                    Send to
+                </label>
+                <input id="ticket-email" type="email" class="modal-input" placeholder="Enter email">
+                <!-- đặt id="ticket-email cho input gắn vào for label" -->
+                <button id="buy-tickets">
+                    Pay <i class="ti-check"></i>
+                </button>
+            </div>
+
+            <footer class="modal-footer">
+                <p class="modal-help">Need <a href="">help?</a></p>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        const buyBtns = document.querySelectorAll('.js-buy-ticket')
+        const modal = document.querySelector('.js-modal')
+        const modalContainer = document.querySelector('.js-modal-container')
+        const modalClose = document.querySelector('.js-modal-close')
+
+        // hàm hiển thị modal mua vé (thêm class open vào modal)
+        function showBuyTickets() {
+            modal.classList.add('open')
+        }
+
+        // hàm ẩn modal mua vé (gỡ bỏ class open của modal)
+        function hideBuyTickets() {
+            modal.classList.remove('open')
+        }
+        
+        // lặp qua từng thẻ button và nghe hành vi click
+        for (const buyBtn of buyBtns) {
+            buyBtn.addEventListener('click', showBuyTickets)
+        }
+
+        // nghe hành vi click vào button close
+            modalClose.addEventListener('click', hideBuyTickets)
+
+            modal.addEventListener('click', hideBuyTickets)
+
+            modalContainer.addEventListener('click', function (event) {
+                event.stopPropagation()
+            }) 
+            // viết function thẳng vào luôn thì kh cần đặt tên he
+    </script>
+
+    <script>
+        var header = document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+
+        
+
+        // tự động đóng khi chọn menu
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+      
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+            
+            menuItem.onclick = function(event) {
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if (isParentMenu) {
+                    event.preventDefault();
+                } else {
+                    header.style.height = null;
+                }
+            }
+        }
+    </script>
+</body>
+</html>

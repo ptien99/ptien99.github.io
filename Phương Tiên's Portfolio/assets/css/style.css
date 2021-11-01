@@ -185,7 +185,7 @@ html {
     margin-top: 46px;
     padding-top: 50%;
     /* 50% chiều ngang của chính nó */
-    background: url('../img/slider/slider1.jpg') top center / cover no-repeat;
+    background: url('../img/port/tien.png') top center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -243,6 +243,16 @@ html {
     opacity: 0.6;
 }
 
+#content .section-sub-heading1 {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+#content .section-sub-heading2 {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
 #content .about-text {
     margin-top: 25px;
     font-size: 15px;
@@ -282,20 +292,29 @@ html {
     background-color: #fff;
     margin-top: 39px;
     list-style: none;
+    margin-top: 16px;
 }
 
 .tickets-list li {
+    color: #000;
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tickets-list .edu {
+    
     color: #757575;
     font-size: 15px;
     padding: 11px 16px;
     border-bottom: 1px solid #ddd;
 }
 
-.tickets-list .sold-out {
-    background-color: #f44336;
-    color: #fff;
-    padding: 3px 4px;
-    margin-left: 16px;
+.tickets-list .skill {
+    color: #757575;
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
 }
 
 .tickets-list .quantity {
@@ -490,9 +509,15 @@ html {
     }
 }
 
+
 .contact-content {
     margin-top: 48px;
 }
+
+.contact-list {
+    margin-top: 25px;
+}
+
 
 .contact-info {
     font-size: 18px;
@@ -545,11 +570,13 @@ html {
 }
 
 #footer {
+   margin-top: -64px;
     padding: 64px 16px;
     text-align: center;
 }
 
 #footer .social {
+    margin-top: 16px;
     font-size: 24px;
 }
 
